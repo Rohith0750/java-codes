@@ -8,4 +8,3 @@ public class basic{
         System.err.println("My name is rohith");
     }
 } 
-
