@@ -105,5 +105,27 @@ public class Classes {
     }
 }
 
+methoed overloading in java 
+
+class calculator{
+   public int add(int n1,int n2){
+     
+    return n1+n2;
+}
+
+public int add(int n1 ,int n2 , int n3){
+    return n1+n2+n3;
+  
+   }
+}
+
+  public class methoedover {
+  public static void main(String[] args) {
+    calculator obj = new calculator();
+    int r1=obj.add(3,4,5);
+    System.out.println(r1);
+  }  
+}
+Method overloading is a powerful tool in Java for improving code flexibility and readability. By providing multiple versions of a method, you can handle different input scenarios in a consistent and logical way.
 
 

@@ -8,3 +8,19 @@ An object is an instance of a class. It represents a specific entity that contai
 
 Syntax
 ClassName objectName = new ClassName();
+
+Method Overloading in Java
+
+Method Overloading is a feature in Java that allows a class to have multiple methods with the same name but different parameter lists 
+
+Key Rules for Method Overloading
+Same Method Name: The overloaded methods must have the same name.
+Different Parameter Lists:
+Vary the number of parameters.
+Change the type of parameters.
+Rearrange the order of parameters (if the types are different).
+Return Type Does Not Matter: You cannot overload methods based on the return type alone.
+
+Why Use Method Overloading?
+To perform similar tasks with different types or numbers of inputs.
+To make the code more readable and maintainable.
