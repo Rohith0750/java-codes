@@ -1,0 +1,10 @@
+what is classes in java?
+A class is a blueprint for creating an object.
+int defines the properties and behaviors that the object should have.
+
+what is objects in java?
+An object is an instance of a class. It represents a specific entity that contains the data and behavior defined in the class.
+
+
+Syntax
+ClassName objectName = new ClassName();

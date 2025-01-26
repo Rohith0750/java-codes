@@ -4,7 +4,6 @@ public class basic{
         int a=5;
         int b=5;
         int sum=a+b;
-      
-        System.err.println("My name is rohith");
-    }
+      System.out.println(sum); 
+ }
 } 

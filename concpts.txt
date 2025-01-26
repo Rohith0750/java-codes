@@ -1,0 +1,109 @@
+ //object oriented programming 
+ //to create a object we have to create a class 
+// to craete a object we use new keyword
+
+//class name objname=new classname();
+ 
+ class calc{
+    int a;
+    int b;
+
+    public int add(){
+    
+        System.out.println("Adding ..");
+        return 0;
+    }
+ }
+
+public class Classes {
+    public static void main(String[] args) {
+      int num1=4;
+      int num2=5;  
+
+      calc obj = new calc();
+      int result=obj.add();
+      System.out.println(result);
+    }
+}
+
+output:
+
+Adding ..
+0
+
+
+
+
+ class calc{
+    
+
+    public int add(){
+    
+     int r=num1+num2;
+        return r;
+    }
+ }
+
+public class Classes {
+    public static void main(String[] args) {
+      int num1=4;
+      int num2=5;  
+
+      calc obj = new calc();
+      int result=obj.add();
+      System.out.println(result);
+    }
+}
+Exception in thread "main" java.lang.Error: Unresolved compilation problems:
+        num1 cannot be resolved to a variable
+        num2 cannot be resolved to a variable
+
+        at calc.add(Classes.java:12)       
+        at Classes.main(Classes.java:23)
+
+
+ how can we acces them????.
+
+ class calc{
+    
+
+    public int add(int n1,int n2){  we pass the input here 
+    
+     int r=n1+n2;  
+        return r;
+    }
+ }
+
+public class Classes {
+    public static void main(String[] args) {
+      
+      calc obj = new calc();
+      int result=obj.add(4,5); give the input here 
+      System.out.println(result);
+    }
+}
+
+ 
+if we intialize the variable inside the main fuction
+ 
+ class calc{
+    
+    public int add(int n1,int n2){
+    
+     int r=n1+n2;
+        return r;
+    }
+ }
+
+public class Classes {
+    public static void main(String[] args) {
+      int num1=4;
+      int num2=5;
+      calc obj = new calc();
+      int result=obj.add(num1,num2);
+      System.out.println(result);
+    }
+}
+
+
+
