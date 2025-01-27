@@ -24,3 +24,10 @@ Return Type Does Not Matter: You cannot overload methods based on the return typ
 Why Use Method Overloading?
 To perform similar tasks with different types or numbers of inputs.
 To make the code more readable and maintainable.
+
+
+Multithreading
+Multithreading in Java is a concurrent execution model where multiple threads are created within a single process to perform different tasks simultaneously.
+
+Thread
+
