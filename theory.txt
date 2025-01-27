@@ -27,7 +27,8 @@ To make the code more readable and maintainable.
 
 
 Multithreading
+
 Multithreading in Java is a concurrent execution model where multiple threads are created within a single process to perform different tasks simultaneously.
 
 Thread
-
+Threads are lightweight subprocesses, representing the smallest unit of execution with separate paths
