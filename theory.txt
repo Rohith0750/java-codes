@@ -32,3 +32,21 @@ Multithreading in Java is a concurrent execution model where multiple threads ar
 
 Thread
 Threads are lightweight subprocesses, representing the smallest unit of execution with separate paths
+
+
+Encapsulation
+Encapsulation in Java is a fundamental OOP (object-oriented programming) principle that combines data and methods in a class.
+It allows implementation details to be hidden while exposing a public interface for interaction.
+The getName() and setName() methods, known as getters and setters, provide controlled access to the name attribute. 
+This encapsulation mechanism protects the internal state of the Programmer object and allows for better control and flexibility in how the name attribute is accessed and modified.
+
+/one way is we can use private i.e the variable that is declared as private can accesable by private class, we can acces them but not directly
+//we can access private by methoeds
+//we can acces them inside the methoed of same class
+//everytime we create a variable private no one should access it outside  it can be used by their own methoeds.
+
+/ Getters
+// Getters are methods that return the value of a private variable. They are typically named getVariableName and do not take any parameters.
+
+// Setters
+// Setters are methods that set the value of a private variable. They are typically named setVariableName and take a single parameter, which is the new value for the variable.
