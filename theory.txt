@@ -35,7 +35,8 @@ Threads are lightweight subprocesses, representing the smallest unit of executio
 
 
 Encapsulation
-Encapsulation in Java is a fundamental OOP (object-oriented programming) principle that combines data and methods in a class.
+Encapsulation in Java is a f
+undamental OOP (object-oriented programming) principle that combines data and methods in a class.
 It allows implementation details to be hidden while exposing a public interface for interaction.
 The getName() and setName() methods, known as getters and setters, provide controlled access to the name attribute. 
 This encapsulation mechanism protects the internal state of the Programmer object and allows for better control and flexibility in how the name attribute is accessed and modified.
@@ -50,3 +51,9 @@ This encapsulation mechanism protects the internal state of the Programmer objec
 
 // Setters
 // Setters are methods that set the value of a private variable. They are typically named setVariableName and take a single parameter, which is the new value for the variable.
+
+Key Features of Encapsulation
+Data Hiding: Instance variables are declared as private to prevent direct access.
+Controlled Access: Public getter and setter methods control how data is accessed and modified.
+Improves Maintainability: Makes code more flexible and easier to modify.
+Increases Security: Prevents accidental changes to critical data.
