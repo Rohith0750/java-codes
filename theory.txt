@@ -57,3 +57,9 @@ Data Hiding: Instance variables are declared as private to prevent direct access
 Controlled Access: Public getter and setter methods control how data is accessed and modified.
 Improves Maintainability: Makes code more flexible and easier to modify.
 Increases Security: Prevents accidental changes to critical data.
+
+
+This keyword
+The this keyword in Java is a reference variable that refers to the current object of a class. 
+It is primarily used inside a class to distinguish between instance variables and local variables, call constructors, return the current instance, and pass the current object as a parameter.
+
