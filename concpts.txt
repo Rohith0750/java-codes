@@ -180,3 +180,10 @@ Polymorphism
 Maintainability
 Extensibility
 
+Single-Level Inheritance
+Definition:
+Single-level inheritance occurs when a class (subclass) inherits directly from another class (superclass). There is only one level of inheritance, meaning the subclass does not have any further subclasses.
+
+Multi-Level Inheritance
+Definition:
+Multi-level inheritance occurs when a class (subclass) inherits from another class (superclass), and that subclass is further inherited by another class. This creates a chain of inheritance with multiple levels.

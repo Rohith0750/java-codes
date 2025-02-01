@@ -63,3 +63,18 @@ This keyword
 The this keyword in Java is a reference variable that refers to the current object of a class. 
 It is primarily used inside a class to distinguish between instance variables and local variables, call constructors, return the current instance, and pass the current object as a parameter.
 
+Inhreitance
+Inheritance in Java is a mechanism where one class (called a subclass or derived class) inherits properties and behaviors (methods) from another class (called a superclass or base class). 
+This allows for code reusability, hierarchical relationships, and polymorphism, making the code more modular and easier to maintain.
+
+Key concepts
+Superclass and Subclass
+Extends Keyword
+Method Overriding
+Constructor Chaining
+Access Modifiers
+Code Reusability
+Hierarchical Relationships
+Polymorphism
+Maintainability
+Extensibility
