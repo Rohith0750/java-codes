@@ -78,3 +78,6 @@ Hierarchical Relationships
 Polymorphism
 Maintainability
 Extensibility
+
+Multiple Inheritance
+In Java, multiple inheritance refers to the concept where a class can inherit attributes and methods from more than one parent class. However, Java does not support multiple inheritance directly through classes to avoid complexity and ambiguity, such as the "diamond problem." Instead, Java provides a mechanism to achieve similar functionality using interfaces.
