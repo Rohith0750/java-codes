@@ -1,0 +1,91 @@
+what is classes in java?
+A class is a blueprint for creating an object.
+int defines the properties and behaviors that the object should have.
+
+what is objects in java?
+An object is an instance of a class. It represents a specific entity that contains the data and behavior defined in the class.
+
+
+Syntax
+ClassName objectName = new ClassName();
+
+Method Overloading in Java
+
+Method Overloading is a feature in Java that allows a class to have multiple methods with the same name but different parameter lists 
+
+Key Rules for Method Overloading
+Same Method Name: The overloaded methods must have the same name.
+Different Parameter Lists:
+Vary the number of parameters.
+Change the type of parameters.
+Rearrange the order of parameters (if the types are different).
+Return Type Does Not Matter: You cannot overload methods based on the return type alone.
+
+Why Use Method Overloading?
+To perform similar tasks with different types or numbers of inputs.
+To make the code more readable and maintainable.
+
+
+Multithreading
+
+Multithreading in Java is a concurrent execution model where multiple threads are created within a single process to perform different tasks simultaneously.
+
+Thread
+Threads are lightweight subprocesses, representing the smallest unit of execution with separate paths
+
+
+Encapsulation
+Encapsulation in Java is a f
+undamental OOP (object-oriented programming) principle that combines data and methods in a class.
+It allows implementation details to be hidden while exposing a public interface for interaction.
+The getName() and setName() methods, known as getters and setters, provide controlled access to the name attribute. 
+This encapsulation mechanism protects the internal state of the Programmer object and allows for better control and flexibility in how the name attribute is accessed and modified.
+
+/one way is we can use private i.e the variable that is declared as private can accesable by private class, we can acces them but not directly
+//we can access private by methoeds
+//we can acces them inside the methoed of same class
+//everytime we create a variable private no one should access it outside  it can be used by their own methoeds.
+
+/ Getters
+// Getters are methods that return the value of a private variable. They are typically named getVariableName and do not take any parameters.
+
+// Setters
+// Setters are methods that set the value of a private variable. They are typically named setVariableName and take a single parameter, which is the new value for the variable.
+
+Key Features of Encapsulation
+Data Hiding: Instance variables are declared as private to prevent direct access.
+Controlled Access: Public getter and setter methods control how data is accessed and modified.
+Improves Maintainability: Makes code more flexible and easier to modify.
+Increases Security: Prevents accidental changes to critical data.
+
+
+This keyword
+The this keyword in Java is a reference variable that refers to the current object of a class. 
+It is primarily used inside a class to distinguish between instance variables and local variables, call constructors, return the current instance, and pass the current object as a parameter.
+
+Inhreitance
+Inheritance in Java is a mechanism where one class (called a subclass or derived class) inherits properties and behaviors (methods) from another class (called a superclass or base class). 
+This allows for code reusability, hierarchical relationships, and polymorphism, making the code more modular and easier to maintain.
+
+Key concepts
+Superclass and Subclass
+Extends Keyword
+Method Overriding
+Constructor Chaining
+Access Modifiers
+Code Reusability
+Hierarchical Relationships
+Polymorphism
+Maintainability
+Extensibility
+
+Multiple Inheritance
+In Java, multiple inheritance refers to the concept where a class can inherit attributes and methods from more than one parent class. However, Java does not support multiple inheritance directly through classes to avoid complexity and ambiguity, such as the "diamond problem." Instead, Java provides a mechanism to achieve similar functionality using interfaces.
+
+access Modifiers
+Summary Table:
+Access Modifier	Within Class	Within Package	Subclass (Same Package)	Subclass (Different Package)	Anywhere
+private         	✔				
+default	            ✔	           ✔	             ✔		
+protected	        ✔	           ✔	             ✔	                      ✔	
+public	            ✔	           ✔	             ✔	                      ✔	                         ✔
