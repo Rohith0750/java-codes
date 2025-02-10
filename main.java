@@ -17,7 +17,7 @@ class Mythread extends Thread{
         System.out.println(name + "Thread existing");
     }
 }
-public class main{
+public class Main{
     public static void main(String[] args){
     Mythread obj1 = new Mythread("one");
     Mythread obj2 = new Mythread("two");
